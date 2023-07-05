@@ -1,183 +1,158 @@
-
-.header{
-    background-color: rgb(246, 50, 50);
-    padding: 20px 0px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    outline: rgb(66, 153, 225) solid 1px !important
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: rgb(246, 50, 50);
+  padding: 20px 0px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
 }
 .tahoma {
-    margin: 0px;
-    padding: 2px;
-    font-family: tahoma;
-    color: white;
-    border: 8px solid white;
-    display: inline-block;
-    border-radius: 36px;
-    outline: rgb(66, 153, 225) solid 1px !important
+  margin: 0px;
+  padding: 2px;
+  font-family: tahoma;
+  color: white;
+  border: 8px solid white;
+  display: inline-block;
+  border-radius: 36px;
 }
-.main-nav{
-    background: rgb(244, 244, 244);
-    padding: 20px;
-    position: sticky;
-    top: 106px;
-    z-index: 1;
-    outline: rgb(66, 153, 225) solid 1px !important
+.main-nav {
+  background: rgb(244, 244, 244);
+  padding: 20px;
+  position: sticky;
+  top: 106px;
+  z-index: 1;
 }
-li{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    width: 25%;
-    display: inline-block;
-    font-size: 24px;
-    outline: rgb(66, 153, 225) solid 1px !important
+li {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  width: 25%;
+  display: inline-block;
+  font-size: 24px;
 }
-.join{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    text-decoration: none;
-    color: rgb(75, 75, 75);
-    outline: rgb(66, 153, 225) solid 1px !important
+.join {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
 }
 .voltron-resim {
-    max-width: 100%;
-    outline: rgb(66, 153, 225) solid 1px !important     
+  width: 100%;
 }
-.main-nav{
-    background: rgb(244, 244, 244);
-    padding: 20px;
-    position: sticky;
-    top: 106px;
-    z-index: 1;
-    outline: rgb(66, 153, 225) solid 1px !important
+.main-nav {
+  background: rgb(244, 244, 244);
+  padding: 20px;
+  position: sticky;
+  top: 106px;
+  z-index: 1;
 }
-li{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    width: 25%;
-    display: inline-block;
-    font-size: 24px;
-    outline: rgb(66, 153, 225) solid 1px !important
+li {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  width: 25%;
+  display: inline-block;
+  font-size: 24px;
 }
-.kanal{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    white-space: nowrap;
-    max-width: 1200px;
-    text-align: center;
-    outline: rgb(66, 153, 225) solid 1px !important
+.kanal {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  white-space: nowrap;
+  max-width: 1200px;
+  text-align: center;
 }
-.join{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    text-decoration: none;
-    color: rgb(75, 75, 75);
-    outline: rgb(66, 153, 225) solid 1px !important
+.join {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
 }
-.main{
-    max-width: 100%;
-    width: 1200px;
-    margin: 80px auto;
-    padding: 0px 40px;
-    box-sizing: border-box;
-    outline: rgb(66, 153, 225) solid 1px !important
+.main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0px 40px;
+  box-sizing: border-box;
 }
-article{
-    outline: rgb(66, 153, 225) solid 1px !important
+.voltron-baslik {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  color: rgb(246, 50, 50);
+  font-size: 48px;
 }
-.voltron-baslik{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    color: rgb(246, 50, 50);
-    font-size: 48px;
-    outline: rgb(66, 153, 225) solid 1px 
+.text {
+  font-size: 18px;
+  line-height: 2em;
+  color: rgb(75, 75, 75);
 }
-.text{
-    font-size: 18px;
-    line-height: 2em;
-    color: rgb(75, 75, 75);
-    outline: rgb(66, 153, 225) solid 1px !important
+.images {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  text-align: center;
+  white-space: nowrap;
 }
-.images{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    text-align: center;
-    white-space: nowrap;
-    outline: rgb(66, 153, 225) solid 1px !important
+#x {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  display: inline-block;
+  list-style-type: none;
+  width: 40%;
+  position: relative;
 }
-#x{
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    display: inline-block;
-    list-style-type: none;
-    width: 40%;
-    position: relative;
-    outline: rgb(66, 153, 225) solid 1px !important
+img {
+  width: 90%;
 }
-img{
-    width: 90%;
-    outline: rgb(66, 153, 225) solid 1px !important
-}
-.joinning{
-    background: rgb(244, 244, 244);
-    text-align: center;
-    padding: 60px 20px;
-    padding-top: 20px;
-    color: rgb(75, 75, 75);
-    outline: rgb(66, 153, 225) solid 1px !important
+.joinning {
+  background: rgb(244, 244, 244);
+  text-align: center;
+  padding: 60px 20px;
+  padding-top: 20px;
+  color: rgb(75, 75, 75);
 }
 .text-alt {
-    margin: 0px;
-    padding: 0px;
-    font-family: tahoma;
-    font-size: 36px;
-    outline: rgb(66, 153, 225) solid 1px !important
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma;
+  font-size: 36px;
 }
-#texttt{
-    font-size: 18px;
-    outline: rgb(66, 153, 225) solid 1px !important
+#texttt {
+  font-size: 18px;
 }
-form{
-    outline: rgb(66, 153, 225) solid 1px !important
+form {
 }
-.input{
-    margin: 20px 0px;
-    padding: 10px 20px;
-    font-size: 24px;
-    border-radius: 28px;
-    border: 4px solid white;
-    outline: rgb(66, 153, 225) solid 1px !important
+.input {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px solid white;
 }
-.buton{
-    margin: 20px 0px;
-    padding: 10px 20px;
-    font-size: 24px;
-    border-radius: 28px;
-    border: 4px solid white;
-    outline: rgb(66, 153, 225) solid 1px !important
-
+.buton {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px solid white;
 }
-footer{
-    background: rgb(246, 50, 50);
-    color: white;
-    padding: 10px;
-    text-align: center;
-    outline: rgb(66, 153, 225) solid 1px !important
+footer {
+  background: rgb(246, 50, 50);
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
-.footer-text{
-    font-size: 18px;
-    outline: rgb(66, 153, 225) solid 1px !important
-}    
+.footer-text {
+  font-size: 18px;
+}
